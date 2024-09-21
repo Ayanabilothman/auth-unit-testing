@@ -1,0 +1,24 @@
+{
+  "name": "the-article",
+  "version": "1.0.0",
+  "description": "How to use jest with Nodejs ES modules to test express controllers. Here you will learn how to test asynchronous code and how to use mocks to get rid of side effects.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.4",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.1"
+  }
+}
